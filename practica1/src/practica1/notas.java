@@ -8,7 +8,7 @@ public class notas {
     //nota de la primera unidad
     double notasUf1;
     //nota de la segunda unidad
-    double uf2;
+    double notasUf2;
     //nota de la tercera unidad
     double uf3;
     
@@ -44,7 +44,7 @@ public class notas {
             System.out.println("Nota 1 correcta");
         }
         
-        if (uf2 > 10) {
+        if (notasUf2> 10) {
             System.out.println("Nota 2 mal introducida");
         } else {
             System.out.println("Nota 2 correcta");
@@ -60,7 +60,7 @@ public class notas {
     //Calcula la nota final 
     public void Calculonotas() {
         acu1 = notasUf1* 0.35;
-        acu2 = uf2 * 0.35;
+        acu2 = notasUf2* 0.35;
         acu3 = uf3 * 0.30;
         def = acu1 + acu2 + acu3;
     }
@@ -69,7 +69,7 @@ public class notas {
     public void Mostrar() {
         System.out.println("Notas introducidas:");
         System.out.println("Nota 1 = " + notasUf1);
-        System.out.println("Nota 2 = " + uf2);
+        System.out.println("Nota 2 = " + notasUf2);
         System.out.println("Nota 3 = " + uf3);
         System.out.println("Acumulado 1 = " + acu1);
         System.out.println("Acumulado 2 = " + acu2);
