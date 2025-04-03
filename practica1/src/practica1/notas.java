@@ -10,7 +10,7 @@ public class notas {
     //nota de la segunda unidad
     double notasUf2;
     //nota de la tercera unidad
-    double uf3;
+    double notasUf3;
     
     double acu1;
 
